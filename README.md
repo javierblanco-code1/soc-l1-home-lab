@@ -61,7 +61,7 @@ Invoke-AtomicTest T1057 -TestNumbers 2
 Resultado: `Exit code: 0` — `Done executing test: T1057-2 Process Discovery - tasklist`
 
 ### Detección en Wazuh
-
+![Alertas generadas](screenshots/dashboard-t1057.png) ![Detalle del evento](screenshots/evento-t1057-detalle.png) 
 Se generaron **2 alertas** para el mismo evento, correspondientes a distintas reglas del ruleset de Sysmon:
 
 | Rule ID | Descripción | Nivel |
